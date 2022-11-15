@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thank you!</title>
+
+    <style>
+        body {
+            margin: 0 auto;
+            background-color: white;
+            color: black;
+        }
+
+        .card {
+            margin: 10px auto;
+            padding: 40px;
+            width: 500px;
+            height: 900px;
+            background-color: antiquewhite;
+            border-radius: 20px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .card__title {
+            display: inline-block;
+            font-size: 44px;
+            margin: 0;
+            padding: 0 0 20px;
+            color: red;
+        }
+
+        .card__image {
+            width: 100%;
+            height: auto;
+        }
+
+        .card__text {
+            text-align: center;
+            font-size: 22px;
+            margin: 0;
+            padding: 40px 0 20px;
+            color: rgb(1, 84, 57);
+        }
+
+        .card__button {
+            outline: none;
+            height: 40px;
+            text-align: center;
+            width: 130px;
+            border-radius: 40px;
+            background: #fff;
+            border: 2px solid green;
+            color: green;
+            margin: 20px 0 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <h2 class="card__title">Thank you!</h2>
+
+        <img class="card__image" src="./images/free-vector-flower_102096_flower.png" alt="Thank you!" height="500px"
+            width="500px" />
+
+        <p class="card__text">Don't Worry Be Happy</p>
+
+        <a href="index.html">
+            <button class="card__button">Click to close</button>
+        </a>
+    </div>
+</body>
+
+</html>
