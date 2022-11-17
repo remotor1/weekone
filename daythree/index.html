@@ -12,6 +12,7 @@
 
     body {
         font-family: "Rye", cursive;
+        background-color: white;
 
     }
 
@@ -19,8 +20,11 @@
         padding: 0 60px;
         margin: 0 auto;
         width: 600px;
-        border: 5px dashed red;
-        background-color: yellow;
+        border: 5px dashed black;
+        background-image: url("https://img.freepik.com/premium-photo/vintage-grunge-texture-old-brown-paper-as-grunge-background_213524-445.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -54,6 +58,7 @@
 
     .bander_wrapper:hover {
         background-color: red;
+        transition: all 2s;
     }
 
     .discription {
@@ -64,6 +69,16 @@
 
     .reward {
         font-size: 2em;
+    }
+
+    .button {
+        border: 4px solid rgb(34, 9, 9);
+        border-radius: 15px;
+        margin: 20px;
+        padding: 10px 15px;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
     }
 </style>
 
@@ -82,6 +97,7 @@
         <p class="discription">if you have any information, please contact 6207 332 2310 </p>
 
         <p class="reward">Reward: $1,000,000</p>
+        <a class="button" href="tel:911"> Click to call</a>
     </div>
 
 </body>
