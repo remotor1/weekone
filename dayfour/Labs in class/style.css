@@ -1,0 +1,127 @@
+/* body {
+  display: flex;
+  flex-direction: column;
+} */
+body {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #d6d6d6;
+}
+
+.page {
+  display: flex;
+  width: 800px;
+  /* height: 100%; */
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-image: url(background.jpg);
+  background-repeat: repeat-x;
+  background-size: 350px auto;
+
+  height: 160px;
+  /* position: relative; */
+}
+
+#logo {
+  padding: 20px 0 0;
+  position: absolute;
+  height: 210px;
+  width: 210px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.card-wrapper {
+  margin: 110px auto 30px;
+  width: 800px;
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#main-card {
+  padding: 20px;
+  width: 68%;
+  background-color: white;
+
+}
+
+.title {
+  padding: 0;
+  margin: 10px 0 10px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* .download {} */
+
+.text-link {
+  line-height: 18px;
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+}
+
+.side__link {
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+}
+
+.text__footer {
+  padding: 11px 0 11px;
+  border-top: 1px dotted black;
+  border-bottom: 1px solid black;
+  margin: 0 0 40px;
+}
+
+.card-picture {
+  width: 100%;
+  height: auto;
+}
+
+#side-card {
+  padding: 15px;
+  background-color: white;
+  width: 21%;
+}
+
+#socials {
+  height: 50px;
+  width: 150px;
+  /* position: absolute; */
+  top: 900px;
+  left: 250px;
+}
+
+p {
+  font-size: 9px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-size: 9px;
+  margin-left: -25px;
+  font-weight: bold;
+}
+
+.side-pic {
+  margin: 10px 0;
+  width: 100%;
+}
+
+#socials {
+  margin: 0 auto;
+}
