@@ -50,9 +50,14 @@ body {
 
 #main-card {
   padding: 20px;
-  width: 68%;
+  width: 65%;
   background-color: white;
+}
 
+#side-card {
+  padding: 15px 15px 30px;
+  background-color: white;
+  width: 24%;
 }
 
 .title {
@@ -71,9 +76,16 @@ body {
   font-weight: bold;
 }
 
+.menu-link {
+  line-height: 18px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
 .side__link {
   text-decoration: none;
-  color: red;
+  color: black;
   font-weight: bold;
 }
 
@@ -89,11 +101,7 @@ body {
   height: auto;
 }
 
-#side-card {
-  padding: 15px;
-  background-color: white;
-  width: 21%;
-}
+
 
 #socials {
   height: 50px;
